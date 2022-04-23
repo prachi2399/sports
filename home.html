@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enthusia2k22</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+    <div id="container">
+        <!-- <h1> Enthusia2k22</h1> -->
+        <!--Logo-->
+        <div class="logo"><a  class="logo" href='/'><img class="logo" src="./Images/logo.jpeg"></a></div>
+
+        <!--Navbar-->
+        <div id="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Past Events</a></li>
+                <li><a href="#">Sponsors</a></li>
+                <li><a href="#">Register</a></li>
+                <li id="login"><a href="#">Log-in</a></li>
+            </ul>
+        </div>
+         <!-- icons -->
+         <div id="icons">
+            <!-- visit => "fontawesome.com" for icons -->
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <img src="/Images/basketball.jpeg" style="width:100%">
+            <div class="text">Enthusia2k22</div>
+            <!-- <h2>Enthusia2k22</h2> -->
+            </div>
+            <div class="mySlides fade">
+            <img src="/Images/volleyball.webp" style="width:100%">
+            <div class="text">Enthusia2k22</div>
+            </div>
+        </div>
+        <div class="about">
+            <h1 id="heading">About Enthusia</h1>
+            <p id="aboutText">“Enthusia” is the annual sports fest of M.B.M University.
+                Enthusia celebrates the spirit of sportsmanship and serves as
+                a platform to showcase the countless hours of perspiration
+                 put in by the teams to achieve excellence in their sport. 
+                Since its inception in 2011 the grandeur of Enthusia has spread
+                 far and wide across the best colleges of India.</p>
+        </div>
+        <div class="contacts">
+            <h1>CONTACT US</h1>
+            <div class="contact">
+                <div class="call">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <h3 class="name">ANKIT CHOUDHARY</h3>
+                    <a href="tel:+916378059553"><h3>6378059553</h3></a>
+                </div>
+                <div class="email">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <a href="mailto:enthusia2k22@mbm.ac.in">
+                        <h3>enthusia2k22@mbm.ac.in</h3>
+                    </a>
+                </div>
+                <div class="location">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    
+                    <a href="https://www.google.com/maps?q=MBM+Engineering+College+University+in+Jodhpur,+Rajasthan&rlz=1C5CHFA_enIN972IN972&uact=5&gs_lcp=Cgdnd3Mtd2l6EAMyAggmOgcIABBHELADOgoILhDUAhCwAxBDOgoIABDkAhCwAxgBOgwILhDIAxCwAxBDGAI6DgguEMgDELADEAoQQxgCOg8ILhDUAhDIAxCwAxBDGAJKBAhBGABKBAhGGAFQg1FYg1Fgj1VoBXABeACAAZ8BiAGfAZIBAzAuMZgBAKABAqABAcgBD8ABAdoBBggBEAEYCdoBBggCEAEYCA&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj8_6y9yar3AhWLGaYKHSv3CG4Q_AUoAXoECAEQAw"><h3>M.B.M University, Jodhpur</h3></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>COPYRIGHT ©2022 ALL RIGHTS RESERVED | THIS SITE IS MADE WITH 💜 BY ENTHUSIA WEB TEAM</p>
+        </div>
+    </div>
+</body>
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
+</html>

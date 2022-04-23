@@ -1,0 +1,268 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #e0e0e0;
+}
+/* h1{
+    color: #ff6700;
+} */
+#container #logo{
+    position: absolute;
+    left: 8%;
+    top:30px;
+    font-size: 30px;
+    z-index: 997;
+    font-weight: bold;
+    color: #ff6700;
+}
+
+/* navbar */
+#navbar
+{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #b1b1b333;
+    display: grid;
+    place-items: center;
+}
+.logo{
+    height: 80px;
+    width: 200px;
+}
+#navbar ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#navbar ul li
+{
+    font-size: 22px;
+    margin: 0 45px;
+}
+#navbar ul li a
+{
+    text-decoration: none;
+    color: #ff6700;
+}
+#navbar ul li a:hover
+{
+    color: #165397;
+}
+
+/* login button */
+#navbar ul #login
+{
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    right: 7%;
+    display: grid;
+    place-items: center;
+    background: #ff6700;
+    border-radius: 10px 20px;
+}
+#navbar ul #login a
+{
+    color: #e9e9eb;
+}
+#navbar ul #login:hover
+{
+    background: #000;
+}
+/* icons */
+#icons
+{
+    height: 500px;
+    width: 65px;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 250px);
+    background: #ec7424;
+    border-radius: 0 60px 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 998;
+    position:fixed;
+}
+#icons:hover
+{
+    background: #ff6700;
+}
+#icons a
+{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    font-size: 23px;
+    color: #e9e9eb;
+    display: grid;
+    place-items: center;
+    margin: 30px 0
+}
+#icons a:hover
+{
+    color: #165397;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+/* Caption text */
+.text{
+color: #f2f2f2;
+font-size: 100px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+vertical-align: center;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+.slideshow-container img{
+    opacity: 0.7;
+}
+.about{
+    background-image: url("/Images/ba.jpeg");
+    opacity: 0.8;
+    max-width: 100%;
+    margin: auto;
+    padding: 10%;
+}
+
+#heading{
+    padding: 5%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #ff6700;
+    font-size: 75px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#aboutText{
+    align-content: center;
+    font-style: italic;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    color: #943126;
+    font-size: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts{
+    padding: 2%;
+    background: #b1b1b3;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.contacts h1{
+    color: #ff6700;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-content: center;
+    font-size: 40px;
+    flex-wrap: wrap;
+}
+.contact{
+    font-family: Roboto;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact i{
+    color: #ff6700;
+    size: 30%;
+    font-size: 40px;
+    width: 12rem;
+    text-align: center;
+    margin: 0.5rem;
+    padding-bottom: 3px;
+}
+.contact h3{
+    color:navy;
+    font-size: 22px;
+}
+
+.contact a{
+    text-decoration: none;
+    color:navy;
+}
+
+.footer{
+    background:#b1b1b3;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .call{
+}
+.email{
+}
+.location{
+    
+} */
+
+
+
+  
+

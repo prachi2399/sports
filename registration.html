@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf5A5AtwR3cFsGhl-3qxazWleSFajGL3CFwywAHDTMnogSiR_nC3pbrA947epUWdPUGoM&usqp=CAU");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 10px;
+                margin: 5px;
+                padding: 5px;
+            }
+            input[type=text], input[type=password] {
+				  width: 50%;
+				  padding: 15px;
+				  margin: 5px 0 5px 0;
+				  display: inline-block;
+				  border: 10px;
+				  border-radius: 20px;
+				  background: #f1f1f1;
+				  border-color: black;
+                  box-sizing: border-box;
+                  border: 1px solid black;
+				}
+            .sports{
+                width: 50%;
+				  display: inline-block;
+				  border: 10px;
+				  border-radius: 20px;
+				  border-color: black;
+                  box-sizing: border-box;
+                  border: 1px solid black;
+            }
+            select{
+                  width: 100%;
+				  padding: 15px;
+				  display: inline-block;
+				  border: 10px;
+				  border-radius: 20px;
+				  background: #f1f1f1;                    
+            }
+            option{
+                 font-size: large;
+            }
+            .main{
+                text-align: center;
+                width: 40%;
+                background-color: aliceblue;
+                border-radius: 50px;
+                height: 80%;
+                transform: translate(10%,10%);
+            }
+            button {
+				  background-color: forestgreen;
+				  border-radius: 5%;
+				  color: black;
+				  padding: 14px 20px;
+				  margin: 8px 0;
+				  border: none;
+				  cursor: pointer;
+				  width: 25%;
+				  opacity: 0.9;
+                  font-size: larger;
+            }
+            .image{
+					width: 55%;
+					height: 80%;
+					position: absolute;
+					background-image: url('https://img.olympicchannel.com/images/image/private/t_social_share_thumb/f_auto/primary/qjxgsf7pqdmyqzsptxju');
+					background-size: 100% 100%;
+					top: 50%;
+					transform: translate(80%,-52%);
+					box-shadow: 1px 2px 10px 5px black;
+					animation: slide 16s infinite linear;  
+					
+					}
+					@keyframes slide {
+					0%{
+					background-image: url('https://i.natgeofe.com/n/6cc12b6a-d9fd-4929-af20-1abd6555b21b/GettyImages-1308737319.jpg');
+					}
+					25%{ 
+						background-image: url('https://media.istockphoto.com/photos/woman-volleyball-players-isolated-silhouette-picture-id491230206?k=20&m=491230206&s=612x612&w=0&h=fnppxQNldWITkPManTxhOFasv7zcrYb4JTUbO4C3h2Y=');
+					}
+					50%{
+						background-image: url('https://deseret.brightspotcdn.com/dims4/default/6dab4a4/2147483647/strip/false/crop/3000x2126+0+0/resize/1486x1053!/quality/90/?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FOlwvXYCwNGgVAy6aynOtLMdOorU%3D%2F0x0%3A3000x2126%2F3000x2126%2Ffilters%3Afocal%281500x1063%3A1501x1064%29%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F23063875%2Fmerlin_2898595.jpg');
+					}
+					75%{
+						background-image: url('https://images.unsplash.com/photo-1576438162986-c685b1cfed7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80');
+					}	
+					}
+					
+        </style>
+        <title>
+            Registration
+        </title>
+        <body>
+              <form>
+                  <div class="main">
+                    <h1>Welcome to Enthusia 2k22</h1>
+                  <p>
+                    <label for="name"></label>
+                    <input type="text" name="name" required id="name" placeholder="Enter Name *">
+                </p>
+                <p>
+                    <label for="email"></label>
+                    <input type="text" name="email" required id="email" placeholder="Enter Email *">
+                </p>
+                <p>
+                    <label for="mobile"></label>
+                    <input type="text" name="mobile" required id="mobile" placeholder="Mobile Number *">
+                </p>
+                <div class="sports">
+                    <label for="sport"></label>
+                    <select name="sport" id="sport">
+                        <option value="" hidden selected>Your Sport *</option>
+                        <option value="cricket" >Cricket</option>
+                        <option value="volleyball">Volleyball</option>
+                        <option value="basketball">Basketball</option>
+                        <option value="kho kho">Kho Kho</option>
+                        <option value="futsal">Futsal</option>
+                        <option value="table tennis">Table Tennis</option>
+                        <option value="chess">Chess</option>
+                    </select>
+                </div>
+                <p>
+                    <label for="college"></label>
+                    <input type="text" name="college" required id="college" placeholder="College *">
+                </p>
+                <p>
+                    <label for="password"></label>
+                    <input type="password" name="password" required id="password" placeholder="Enter Password">
+                </p>
+                <p>
+                    <label for="repeatpassword"></label>
+                    <input type="password" name="repeatpassword" required id="repeatpassword" placeholder="Confirm Password">
+                </p>
+                <p>
+                    <button type="submit" class="submitbtn">Register </button>
+                </p>
+            </div>
+            <div class="image">
+
+            </div>
+              </form>
+             
+        </body>
+    </head>
+</html>

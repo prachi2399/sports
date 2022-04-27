@@ -15,22 +15,6 @@ function Team() {
           </Col>
         </Row>
 
-        <Row className="justify-content-center px-1">
-          {team.conveners.map((member, ind) => {
-            return (
-              <Member
-                post={member.post}
-                name={member.name}
-                phone={member.phone}
-                id={member.id}
-                mail={member.mail}
-                image={member.image}
-                linkedin={member.linkedin}
-                key={member.name}
-              ></Member>
-            );
-          })}
-        </Row>
 
         <p className={`text-center ${styles['team-heading']}`}>
           GAMES AND SPORTS COUNCIL
@@ -39,7 +23,6 @@ function Team() {
           {team['games and sports council'].map((member, ind) => {
             return (
               <Member
-                post={member.post}
                 name={member.name}
                 phone={member.phone}
                 id={member.id}

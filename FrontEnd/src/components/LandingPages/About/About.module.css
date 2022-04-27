@@ -1,0 +1,250 @@
+#about {
+  background-image: url('./bg_football1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+.pb-3 {
+  padding-bottom: 1rem !important;
+}
+
+.mb-1 {
+  font-family: 'League Spartan';
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.align_items_center {
+  -webkit-box-align: center !important;
+  align-items: center !important;
+}
+
+.justify_content_center {
+  -webkit-box-pack: center !important;
+  justify-content: center !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.heading_section {
+  z-index: 0;
+}
+
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.text_center {
+  text-align: center !important;
+}
+
+.col_md_7 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .col_md_7 {
+    -webkit-box-flex: 0;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+}
+
+.heading_section.subheading {
+  font-size: 20px;
+  display: block;
+  /* margin-bottom: 15px; */
+  margin-left: 15px;
+  line-height: 1;
+  z-index: 1;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-family: 'League Spartan';
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+  margin-top: 5 rem !important;
+}
+
+.subheading_mt-5 {
+  font-size: 20px;
+  display: block;
+  /* margin-bottom: 5px; */
+  margin-left: 15px;
+  line-height: 1;
+  z-index: 1;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-family: 'League Spartan';
+  margin-top: 5rem !important;
+}
+
+.h3 {
+  font-weight: 400;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.heading_section h2 {
+  z-index: -1;
+  /* font-size: 100px; */
+  position: relative;
+  text-transform: uppercase;
+  /* line-height: 1.8; */
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  margin-left: 15px;
+  font-family: 'League Spartan';
+  font-weight: bold;
+}
+
+.col-md-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.text-wrap {
+  font-family: 'League Spartan';
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.block-7 {
+  opacity: 0.85;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0px 3px 35px - 24px black;
+  border-color: #000;
+  /* margin-left: 55px;
+    margin-right: 55px; */
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.col-md-4 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .col-md-12 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100;
+    max-width: 100%;
+  }
+
+  .col-md-4 {
+    -webkit-box-flex: 0;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+
+  .mb-1 {
+    font-size: 3.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .mb-1 {
+    font-size: 2em;
+  }
+}
+
+.para1 {
+  font-family: 'Open Sans';
+  color: #808080;
+  padding-bottom: auto;
+  font-size: 17px;
+}
+
+.para2 {
+  font-family: 'Open Sans';
+  color: #808080;
+  padding-bottom: auto;
+  font-size: 17px;
+}
+
+.para3 {
+  font-family: 'Open Sans';
+  color: #808080;
+  padding-bottom: auto;
+  font-size: 17px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .para1 {
+    padding-bottom: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .para1 {
+    padding-bottom: 25px;
+  }
+  .para3 {
+    padding-bottom: 25px;
+  }
+}

@@ -2,6 +2,7 @@
   "name": "enthusia2k22",
   "version": "0.1.0",
   "private": true,
+  "proxy":"http://localhost:3000",
   "dependencies": {
     "axios": "^0.26.1",
     "bootstrap": "^5.1.3",

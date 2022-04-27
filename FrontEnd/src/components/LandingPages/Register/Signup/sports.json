@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Cricket"
+    },
+    {
+      "id": 2,
+      "name": "VolleyBall(Girls)"
+    },
+    {
+      "id": 3,
+      "name": "VolleyBall(Boys)"
+    },
+    {
+      "id": 4,
+      "name": "Futsal"
+    },
+    {
+      "id": 5,
+      "name": "Basketball(Boys)"
+    },
+    {
+      "id": 6,
+      "name": "Basketball(Girls)"
+    },
+    {
+      "id": 7,
+      "name": "Chess"
+    },
+    {
+      "id": 8,
+      "name": "Kho-kho"
+    },
+    {
+      "id": 9,
+      "name": "Table Tennis"
+    }
+]  

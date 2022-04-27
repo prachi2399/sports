@@ -2,7 +2,7 @@ import React ,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import sports from "./sports.json"
-//import {Multiselect} from "multiselect-react-dropdown"
+// import {Multiselect} from "multiselect-react-dropdown"
 import {
   Alert,
   Button,
@@ -64,15 +64,16 @@ function Signup() {
     }
 
     axios
-      .post('https://api.spardha.co.in/auth/register/', {
+      .post('http://localhost:3000/users/signup', {
         email: email.value,
         password: password1.value,
         name: name.value,
-        institution_name: institute.value,
-        phone_no: phone.value,
-        sport : sport.value
+        instituteName: institute.value,
+        phoneNumber: phone.value,
+        sports : sport.value
       })
       .then((res) => {
+        console.log(res)
         dispatchToast({
           color: 'success',
           message: res.data.success,
@@ -188,6 +189,23 @@ function Signup() {
     <>
       <h3 className={`${styles.heading}`}> REGISTER WITH US </h3>
       <hr />
+
+
+      <Alert
+        color="success"
+        style={{
+          fontSize: '14px',
+          fontFamily: 'Helvetica Neue,Helvetica,Arial,sans-serif',
+        }}
+        className="py-2"
+      >
+        <b> Already Signed Up? </b>
+          Click{' '}
+          <Link to="/register/login" style={{ textDecoration: 'none' }}>
+            here{' '}
+          </Link>
+      </Alert>
+      
       
       <div class="col-sm-12 text-end">
         <span
@@ -530,6 +548,7 @@ function Signup() {
             <FaPaperPlane color="white" className="me-1"></FaPaperPlane>
             Sign up
           </Button>
+          
         </div>
       </Form>
     </>

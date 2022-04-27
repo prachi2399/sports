@@ -39,18 +39,18 @@ function Login() {
     }
 
     axios
-      .post('https://api.spardha.co.in/auth/login/', {
-        username: username.value,
+      .post('http://localhost:3000/users/signup', {
+        email: username.value,
         password: password.value,
       })
       .then((res) => {
-        localStorage.setItem('token', res.data.token);
+        // localStorage.setItem('token', res.data.token);
         dispatchToast({
           color: 'success',
           message: 'Logged in Successfully! Redirecting...',
         });
         setTimeout(() => {
-          navigate('/dashboard/home');
+          navigate('/login/Home');
         }, 2000);
       })
       .catch(({ response }) => {
@@ -124,14 +124,7 @@ function Login() {
         </Link>{' '}
         to create one
         <br />
-        <strong> Account not activated? </strong>
-        Click{' '}
-        <Link to="/register/verify" style={{ textDecoration: 'none' }}>
-          {' '}
-          here{' '}
-        </Link>
-        to verify your account.
-        <br />
+        
         <strong>Forgot Password? </strong>Click{' '}
         <Link to="/register/forgot" className="text-decoration-none">
           here

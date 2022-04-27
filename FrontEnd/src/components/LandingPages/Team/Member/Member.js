@@ -27,7 +27,7 @@ function Member({ post, name, phone, id, mail, image, linkedin }) {
                 +91&#8209;{phone}
               </a>
             </span>
-            <div>
+            {/* <div>
               <a
                 href={id}
                 className={styles.links}
@@ -52,7 +52,7 @@ function Member({ post, name, phone, id, mail, image, linkedin }) {
               >
                 <FaLinkedin />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

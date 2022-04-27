@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap');
+
+.heading {
+  text-align: center;
+  color: #6db549;
+  font-family: 'League Spartan';
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.form-horizontal .form-group {
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+.btn-block {
+  display: block;
+  width: 70%;
+  margin: auto;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'League Spartan';
+  font-weight: 800 !important;
+  text-transform: uppercase;
+  margin: 1em auto !important;
+}
+
+.btn-block:active,
+.btn-block:focus {
+  box-shadow: none !important;
+}
+
+.panel {
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-heading {
+  background-color: #f2f2f2 !important;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-bottom-color: transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #333;
+  background-color: #f2f2f2 !important;
+}
+
+.panel-title {
+  font-size: 16px;
+  margin-bottom: 0 !important;
+}
+
+.panel-title:hover {
+  text-decoration: underline;
+}
+
+.label {
+  padding-top: 7px;
+  margin-bottom: 0;
+  text-align: right;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 0px !important;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.form-control {
+  height: 34px;
+  font-size: 14px !important;
+  color: #555;
+  border-left: none !important;
+}
+
+.form-control:focus,
+.form-control:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: dodgerblue !important;
+  box-shadow: 3px 1px 8px rgba(102, 175, 233, 0.6) !important;
+}
+
+.form-text {
+  font-size: 1.5em !important;
+  line-height: 0.75em !important;
+  height: 34px;
+  padding-left: 0.4rem !important;
+  padding-right: 0.1rem !important;
+  background-color: white !important;
+  border-right: none !important;
+  color: #aaa;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-group:focus-within .form-text {
+  color: dodgerblue !important;
+  border-color: dodgerblue !important;
+  box-shadow: 1px 1px 8px rgba(102, 175, 233, 0.6);
+  background-color: white;
+  transition: none !important;
+}

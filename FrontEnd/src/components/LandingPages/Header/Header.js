@@ -213,6 +213,20 @@ function Header() {
                 Contact Us
               </NavHashLink>
             </NavItem>
+            <NavItem className={styles['nav-items']}>
+              <NavHashLink
+                exact="true"
+                to="/register/login"
+                className={styles['nav-links']}
+                onClick={() => {
+                  setOpen(false);
+                }}
+                style={{ color: navbar ? '#000' : 'rgba(255, 255, 255, 0.9)' }}
+                smooth
+              >
+                Login
+              </NavHashLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const emailValidator = require('email-validator');
+const validatePhoneNumber = require('validate-phone-number-node-js');
 const crypto = require('crypto');
 
 const db_link= "mongodb+srv://enthusia2k22:eW0oYJoPi0UeQvZv@cluster0.szcuv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
@@ -34,13 +35,12 @@ const userSchema = mongoose.Schema({
         required:true
     },
     phoneNumber:{
-        type:Number,
-        required:true
+        type: String,
+        required: [true, 'User phone number required']
     },
-    sports:{
-        type:String,
-        required:true,
-    },
+    sports:[{
+        type:String
+    }],
     role:{
         type:String,
         enum:['admin','user'],

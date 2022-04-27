@@ -38,9 +38,13 @@ const userSchema = mongoose.Schema({
         type: String,
         required: [true, 'User phone number required']
     },
-    sports:[{
-        type:String
-    }],
+    sports:{
+        type:String,
+        required:true
+    },
+    // sports:[{
+    //     type:String
+    // }],
     role:{
         type:String,
         enum:['admin','user'],

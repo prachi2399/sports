@@ -4,6 +4,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import './HomeSlider.css';
 import { HashLink } from 'react-router-hash-link';
+import {Link} from "react-router-dom"
 
 function HomeSlider() {
   return (
@@ -113,7 +114,7 @@ function HomeSlider() {
                 <div className="home-small-screen container">
                   <div className="reg">
                     <HashLink
-                      to="/register/signup#register"
+                      to="/register/signup"
                       className="home-button"
                     >
                       REGISTER&nbsp;/&nbsp;LOGIN
@@ -152,10 +153,11 @@ function HomeSlider() {
                   <div className="row">
                     
                     <div className="col-12 reg">
-                      <HashLink
-                        to="/register/signup#register"
-                        className="home-button"
-                      >
+                      
+                    <HashLink
+                      to="/register/signup"
+                      className="home-button"
+                    >
                         REGISTER&nbsp;/&nbsp;LOGIN
                       </HashLink>
                     </div>
@@ -167,7 +169,7 @@ function HomeSlider() {
                 <div className="home-small-screen container">
                   <div className="reg">
                     <HashLink
-                      to="/register/signup#register"
+                      to="/register/signup"
                       className="home-button"
                     >
                       REGISTER&nbsp;/&nbsp;LOGIN
@@ -207,7 +209,7 @@ function HomeSlider() {
                     
                     <div className="col-12 reg">
                       <HashLink
-                        to="/register/signup#register"
+                        to="/register/signup"
                         className="home-button"
                       >
                         REGISTER&nbsp;/&nbsp;LOGIN

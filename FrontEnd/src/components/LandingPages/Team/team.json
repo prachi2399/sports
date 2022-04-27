@@ -30,40 +30,22 @@
   ],
   "games and sports council": [
     {
-      "post": "general secretary",
-      "name": "Amrendra Pratap Singh",
-      "phone": "9410166670",
-      "id": "https://www.facebook.com/Spardha.IIT.BHU/",
-      "mail": "apratapsingh.mec18@itbhu.ac.in",
-      "image": "/images/team/Amrendra_Pratap_Singh.png",
-      "linkedin": "https://www.linkedin.com/in/amrendra-pratap-singh/"
+      "name": "Vijendra",
+      "phone": "9694978713",
+      "image": "/images/vijendra.jpeg"
     },
     {
-      "post": "joint gen secretary",
-      "name": "Naincy",
-      "phone": "7267099637",
-      "id": "https://m.facebook.com/100040473883295/  ",
-      "mail": "naincy.student.mec19@itbhu.ac.in ",
-      "image": "/images/team/Naincy.jpg",
-      "linkedin": "http://www.linkedin.com/in/naincy130901"
-    },
-    {
-      "post": "joint gen secretary",
-      "name": "Shivkaran Singh Ranawat ",
-      "phone": "88240180659",
-      "id": "https://www.facebook.com/shivkaran.ranawat.7",
-      "mail": "shivkarans.ranawat.phe19@itbhu.ac.in ",
-      "image": "/images/team/Shivkaran_Singh_Ranawat.jpg",
-      "linkedin": "https://in.linkedin.com/company/spardha"
-    },
-    {
-      "post": "joint gen secretary",
-      "name": "Vijaykumar Lokhande",
-      "phone": "6388774348",
-      "id": "https://www.facebook.com/Spardha.IIT.BHU/",
-      "mail": "vijaykumral.mec18@itbhu.ac.in",
-      "image": "/images/team/VIJAYKUMAR_LOKHANDE.jpg",
-      "linkedin": "https://www.linkedin.com/in/vijaykumar-lokhande-5352611b2/"
+      "name": "Amit Godara ",
+      "phone": "7732957151",
+      "image": "/images/amit.jpeg"
+    },{
+      "name": "Prince Choudhary",
+      "phone": "9521466011",
+      "image": "/images/prince.jpeg"
+    },{
+      "name": "Ankit Karwasra",
+      "phone": "6378059553",
+      "image": "/images/ankit.jpeg"
     }
   ],
   "publicity team": [

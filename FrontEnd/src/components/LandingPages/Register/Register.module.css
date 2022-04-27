@@ -1,0 +1,25 @@
+.container {
+  background: url(../../../assets/bg/bg_football.jpg) fixed center center/cover;
+  padding: 5em 0;
+  position: relative;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: fit-content;
+  padding: 1.5em 2em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 35em;
+  border-radius: 5.2px;
+  box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+  background: white;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 1em 1em 1em 1em;
+  }
+}

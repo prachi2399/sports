@@ -7,6 +7,7 @@ import {
   FaFacebookF,
   FaLinkedin,
   FaInstagram,
+  FaTelegram,
 } from 'react-icons/fa';
 
 const Footer = () => {
@@ -71,7 +72,7 @@ const Footer = () => {
                         }}
                         href="tel:+919548980225"
                       >
-                        &emsp;&emsp;+91&#8209;9548980225
+                        Ankit Karwasra : &emsp;+91&#8209;6378059553
                       </a>
                     </span>
 
@@ -89,49 +90,14 @@ const Footer = () => {
                         }}
                         href="tel:+919829634035"
                       >
-                        &emsp;&emsp;+91&#8209;9829634035
+                        Amit Godara :&emsp;+91&#8209;7732957151
                       </a>
                     </span>
 
                     <div>{'\n'}</div>
-
-                    <span
-                      className={`${styles.text}`}
-                      style={{ wordSpacing: '0.4em' }}
-                    >
-                      <a
-                        className={`${styles.text}`}
-                        style={{
-                          wordSpacing: '0.4em',
-                          textDecoration: 'none',
-                        }}
-                        href="tel:+917683038420"
-                      >
-                        &emsp;&emsp;+91&#8209;7683038420
-                      </a>
-                    </span>
-
-                   
-                    
-
                     <div />
 
-                    {/* <div> */}
-                    <span
-                      className={`${styles.text}`}
-                      style={{ wordSpacing: '0.4em' }}
-                    >
-                      <a
-                        className={`${styles.text}`}
-                        style={{
-                          wordSpacing: '0.4em',
-                          textDecoration: 'none',
-                        }}
-                        href="tel:+917995167691"
-                      >
-                        &emsp;&emsp;+91&#8209;7995167691
-                      </a>
-                    </span>
+                    
                     {/* </div> */}
                   </div>
 
@@ -152,25 +118,7 @@ const Footer = () => {
                 >
                   <span>
                     <a
-                      href="https://www.facebook.com/Spardha.IIT.BHU/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaFacebookF className={`${styles.icons_lower}`} />
-                    </a>
-                  </span>
-                  <span>
-                    <a
-                      href="https://www.linkedin.com/company/spardha/about/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaLinkedin className={`${styles.icons_lower}`} />
-                    </a>
-                  </span>
-                  <span>
-                    <a
-                      href="https://www.instagram.com/spardha_iitbhu/"
+                      href="https://instagram.com/enthusia2k22?igshid=YmMyMTA2M2Y="
                       target="_blank"
                       rel="noopener noreferrer"
                     >

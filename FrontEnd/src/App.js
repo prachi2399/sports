@@ -10,6 +10,10 @@ import InitializeReactGA from './helper/googleAnalytics.ts';
 const LandingPages = React.lazy(() =>
   import('./components/LandingPages/LandingPages')
 );
+
+const DashBoardPages = React.lazy(() =>
+  import('./components/DashBoard/DashBoard.js')
+);
 // const DashBoard = React.lazy(() =>
 //   import('./components/DashBoard/MainMenu/DashBoard')
 // );
@@ -35,9 +39,9 @@ const Signup = React.lazy(() =>
 const Login = React.lazy(() =>
   import('./components/LandingPages/Register/Login/Login')
 );
-// const Forgot = React.lazy(() =>
-//   import('./components/LandingPages/Register/Forgot/Forgot')
-// );
+const Forgot = React.lazy(() =>
+  import('./components/LandingPages/Register/Forgot/Forgot')
+);
 // const Reset = React.lazy(() =>
 //   import('./components/LandingPages/Register/Reset/Reset')
 // );
@@ -114,8 +118,19 @@ function App() {
                   <Login />
                 </Suspense>
               }
+
+            >
+            <Route
+            exact
+            path="login/Home"
+            element={
+              <Suspense fallback={<Preloader />}>
+                  <DashBoardPages />
+                </Suspense>
+            }
             />
-            {/* <Route
+            </Route>
+            <Route
               exact
               path="forgot"
               element={
@@ -124,7 +139,7 @@ function App() {
                 </Suspense>
               }
             />
-            <Route
+            {/* <Route
               exact
               path="reset"
               element={

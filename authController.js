@@ -1,8 +1,9 @@
 const express= require('express');
-const userModel = require('../model/userModel');
-const otpModel = require('../model/OTPModel');
+
+const userModel = require('./model/userModel');
+const otpModel = require('./model/OTPModel');
 const jwt = require('jsonwebtoken');
-const { sendMail } = require("../Backend/utility/nodemailer");
+const { sendMail } = require("./utility/nodemailer");
 const JWT_KEY="6578shjk87690@#$%fhj";
 const { use } = require('./userRouter');
 

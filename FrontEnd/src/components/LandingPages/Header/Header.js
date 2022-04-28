@@ -131,8 +131,6 @@ function Header() {
                 Events
               </NavHashLink>
             </NavItem>
-            
-            
             <NavItem className={styles['nav-items']}>
               <NavHashLink
                 exact="true"
@@ -213,7 +211,7 @@ function Header() {
                 Contact Us
               </NavHashLink>
             </NavItem>
-            <NavItem className={styles['nav-items']}>
+            {/* <NavItem className={styles['nav-items']}>
               <NavHashLink
                 exact="true"
                 to="/register/login"
@@ -226,7 +224,7 @@ function Header() {
               >
                 Login
               </NavHashLink>
-            </NavItem>
+            </NavItem> */}
           </Nav>
         </Collapse>
       </Navbar>

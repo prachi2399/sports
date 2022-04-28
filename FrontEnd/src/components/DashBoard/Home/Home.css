@@ -1,0 +1,202 @@
+.user-dashboard {
+    padding: 0 20px;
+  }
+  
+  .user-dashboard h1 {
+    color: rgb(0, 78, 0);
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    padding: 21px 0;
+  }
+  
+  /* .user-dashboard .btn.btn-secondary.btn-lg.dropdown-toggle>span {
+      font-size: 11px;
+  } */
+  
+  /* .user-dashboard .welcome-text button {
+      font-size: 11px;
+      padding-right: 23px;
+  } */
+  
+  /* .user-dashboard .welcome-text h2 {
+      font-size: 14px;
+  }
+  
+  .user-dashboard h1 {
+      font-size: 25px;
+  } */
+  
+  @media only screen and (min-width: 767px) and (max-width: 998px) {
+    .user-dashboard .header-top {
+      padding-top: 5px;
+    }
+  
+    .user-dashboard .header-rightside {
+      display: inline-block;
+      float: left;
+      width: 100%;
+    }
+  
+    .user-dashboard .header-rightside .header-top img {
+      max-width: 41px !important;
+    }
+  
+    .user-dashboard .welcome-text button {
+      font-size: 10px;
+    }
+  
+    .user-dashboard .btn.btn-secondary.btn-lg.dropdown-toggle > span {
+      font-size: 12px;
+    }
+  
+    .user-dashboard .welcome-text h2 {
+      font-size: 16px;
+    }
+  }
+  
+  .row_dbHome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .gutter {
+    padding: 0;
+  }
+  
+  .welcome-text {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #d4d9e3;
+    display: inline-block;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  /* .welcome-text button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #dadee7;
+    border-radius: 100px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding-right: 32px;
+    color: rgb(0, 78, 0);
+  }
+  
+  */
+  
+  /* .welcome-text button::before {
+    content: '';
+    font-family: FontAwesome;
+    position: absolute;
+    right: 12px;
+    top: 11px;
+  }
+  
+  */
+  
+  .welcome-text .btn-group {
+    float: right;
+  }
+  
+  .welcome-text h2 {
+    color: #8492af;
+    /* float: left; */
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 0;
+    line-height: 1.5;
+  }
+  
+  .welcome-text .btn-group.open .dropdown-toggle,
+  .btn.active,
+  .btn:active {
+    box-shadow: none;
+  }
+  
+  .welcome-text .dropdown-menu > a {
+    color: rgb(0, 78, 0);
+    display: inline-block;
+    font-weight: 800;
+    padding: 9px 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .welcome-text .dropdown-menu > a:hover {
+    color: limegreen;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .user-dashboard .welcome-text h2 {
+      color: #8492af;
+      /* float: left; */
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0;
+      padding: 0 0 0;
+    }
+  
+    .user-dashboard .btn.btn-secondary.btn-lg.dropdown-toggle > span {
+      font-size: 11px;
+    }
+  
+    .user-dashboard .welcome-text button {
+      font-size: 11px;
+      padding-right: 23px;
+    }
+  
+    .user-dashboard .welcome-text h2 {
+      font-size: 14px;
+    }
+  
+    .user-dashboard h1 {
+      font-size: 25px;
+    }
+  
+    .gutter {
+      padding: 0;
+    }
+  }
+  
+  .text-justify {
+    text-align: justify !important;
+  }
+  
+  @media screen and (min-width: 100px) {
+    .widthAdjust {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .user-dashboard h1 {
+      font-size: 25px;
+    }
+  }
+  
+  .linkbutton_db {
+    background: none;
+    border: none;
+    font-weight: 700;
+    color: #0d6efd;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .linkbutton_db {
+      font-size: inherit !important;
+      padding-right: inherit !important;
+    }
+  }
+  
+  @media only screen and (min-width: 767px) and (max-width: 998px) {
+    .linkbutton_db {
+      font-size: inherit !important;
+      padding-right: inherit !important;
+    }
+  }

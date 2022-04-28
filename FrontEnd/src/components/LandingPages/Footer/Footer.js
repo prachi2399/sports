@@ -125,6 +125,7 @@ const Footer = () => {
                       <FaInstagram className={`${styles.icons_lower}`} />
                     </a>
                   </span>
+                  
                 </div>
               </div>
             </div>
@@ -144,6 +145,11 @@ const Footer = () => {
               </div>
             </div>
           </li>
+        </div>
+        <div className={`${styles.createdHeading}`}>
+        <h6 className={`${styles.pheading} `}>
+                  Created with passion by :<a href="https://www.linkedin.com/in/prachi-soni-52680a1b4/">Prachi Soni</a>  and <a href="https://www.linkedin.com/in/radhika-manihar-77133119a/">Radhika Manihar</a>
+        </h6>
         </div>
       </footer>
     </section>

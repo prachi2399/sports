@@ -30,9 +30,23 @@
   ],
   "games and sports council": [
     {
+      "name": " Vaibhav Thakan",
+      "phone": "94617200551",
+      "image": "/images/Vaibhav.jpeg"
+    },
+    {
       "name": "Vijendra",
       "phone": "9694978713",
       "image": "/images/vijendra.jpeg"
+    },
+    {
+      "name": "Ankit Karwasra",
+      "phone": "6378059553",
+      "image": "/images/ankit.jpeg"
+    },{
+      "name": "Rohan Mann",
+      "phone": "9530283314",
+      "image": "/images/mann.jpeg"
     },
     {
       "name": "Amit Godara ",
@@ -42,10 +56,6 @@
       "name": "Prince Choudhary",
       "phone": "9521466011",
       "image": "/images/prince.jpeg"
-    },{
-      "name": "Ankit Karwasra",
-      "phone": "6378059553",
-      "image": "/images/ankit.jpeg"
     }
   ],
   "publicity team": [

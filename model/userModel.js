@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const emailValidator = require('email-validator');
-const validatePhoneNumber = require('validate-phone-number-node-js');
 const crypto = require('crypto');
 
 const db_link= "mongodb+srv://enthusia2k22:eW0oYJoPi0UeQvZv@cluster0.szcuv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"

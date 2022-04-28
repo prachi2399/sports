@@ -3,6 +3,9 @@ const cors = require('cors');
 const app = express();
 app.use(express.json());
 app.use(cors())
+
+// app.use(express.static('public/build'));
+
 app.listen(3000,function(){
     console.log("Listening on Port 3000");
 });

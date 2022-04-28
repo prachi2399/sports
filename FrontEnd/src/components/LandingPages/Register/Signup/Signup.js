@@ -191,7 +191,7 @@ function Signup() {
       <hr />
 
 
-      <Alert
+      {/* <Alert
         color="success"
         style={{
           fontSize: '14px',
@@ -204,7 +204,7 @@ function Signup() {
           <Link to="/register/login" style={{ textDecoration: 'none' }}>
             here{' '}
           </Link>
-      </Alert>
+      </Alert> */}
       
       
       <div class="col-sm-12 text-end">

@@ -2,7 +2,6 @@
   "name": "enthusia2k22",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3000",
   "dependencies": {
     "@kenshooui/react-multi-select": "^1.1.6",
     "axios": "^0.26.1",

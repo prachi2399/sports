@@ -49,7 +49,7 @@ function HomeSlider() {
                         to="/register/signup#register"
                         className="home-button"
                       >
-                        REGISTER&nbsp;/&nbsp;LOGIN
+                        REGISTER&nbsp;
                       </HashLink>
                     </div>
                   </div>
@@ -63,7 +63,7 @@ function HomeSlider() {
                       to="/register/signup#register"
                       className="home-button"
                     >
-                      REGISTER&nbsp;/&nbsp;LOGIN
+                      REGISTER&nbsp;
                     </HashLink>
                   </div>
                   
@@ -103,7 +103,7 @@ function HomeSlider() {
                         to="/register/signup#register"
                         className="home-button"
                       >
-                        REGISTER&nbsp;/&nbsp;LOGIN
+                        REGISTER&nbsp;
                       </HashLink>
                     </div>
                   </div>
@@ -117,7 +117,7 @@ function HomeSlider() {
                       to="/register/signup"
                       className="home-button"
                     >
-                      REGISTER&nbsp;/&nbsp;LOGIN
+                      REGISTER&nbsp;
                     </HashLink>
                   </div>
                   
@@ -158,7 +158,7 @@ function HomeSlider() {
                       to="/register/signup"
                       className="home-button"
                     >
-                        REGISTER&nbsp;/&nbsp;LOGIN
+                        REGISTER&nbsp;
                       </HashLink>
                     </div>
                   </div>
@@ -172,7 +172,7 @@ function HomeSlider() {
                       to="/register/signup"
                       className="home-button"
                     >
-                      REGISTER&nbsp;/&nbsp;LOGIN
+                      REGISTER&nbsp;
                     </HashLink>
                   </div>
                  
@@ -212,7 +212,7 @@ function HomeSlider() {
                         to="/register/signup"
                         className="home-button"
                       >
-                        REGISTER&nbsp;/&nbsp;LOGIN
+                        REGISTER&nbsp;
                       </HashLink>
                     </div>
                   </div>
@@ -226,7 +226,7 @@ function HomeSlider() {
                       to="/register/signup#register"
                       className="home-button"
                     >
-                      REGISTER&nbsp;/&nbsp;LOGIN
+                      REGISTER&nbsp;
                     </HashLink>
                   </div>
                   

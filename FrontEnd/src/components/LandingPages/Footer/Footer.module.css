@@ -8,6 +8,21 @@
   display: block;
   box-sizing: border-box;
 }
+.pheading{
+  font-size: 1rem;
+  font-family: cursive;
+  color: #7ed321;
+}
+
+.pheading a{
+  font-family: cursive;
+  color: rgb(85, 162, 224);
+}
+.createdHeading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .ftco_section {
   position: relative;

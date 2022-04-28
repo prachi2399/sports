@@ -58,6 +58,13 @@ const Sponsors = () => {
                   alt="image_alt"
                 />
             </div>
+            <div className="col-lg-3 col-md-3 col-4 pt-5">
+            <img
+                  src="/images/patanjali.png"
+                  className="img-fluid_sponsors img-sponsor"
+                  alt="image_alt"
+                />
+            </div>
           </div>
         </div>
       </section>
